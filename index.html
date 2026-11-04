@@ -1,13 +1,39 @@
-<!DOCTYPE html>
-<html>
-      <head>
-        <meta charset="UTF-8">
-        <body>
-            <h1>WELCOME</h1>
-            <div id="products">
 
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>El Buhonero | Resident Evil 4</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js" defer></script>
+</head>
+<body>
+    <header>
+        <p>RESIDENT EVIL 4 · MERCHANT'S TRADING POST</p>
+        <h1>El Buhonero</h1>
+        <p>¿Qué estás comprando, forastero?</p>
+        <button id="cart-button" type="button">
+            Ver cesta (<span id="cart-count">0</span>)
+        </button>
+    </header>
+
+    <main>
+        <section id="catalog">
+            <h2>Mercancía disponible</h2>
+
+            <nav id="category-filters" aria-label="Filtrar por categoría">
+                <!-- JavaScript generará los filtros aquí -->
+            </nav>
+
+            <div id="product-list">
+                <!-- JavaScript generará las tarjetas aquí -->
             </div>
-            <script src="script.js"></script>
-        </body>
-      </head>
+        </section>
+    </main>
+
+    <footer>
+        <p>El Buhonero · Tu tienda de supervivencia</p>
+    </footer>
+</body>
 </html>

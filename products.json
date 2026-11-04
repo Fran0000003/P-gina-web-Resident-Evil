@@ -74,35 +74,35 @@
     "id": 11,
     "name": "Maletín mediano",
     "description": "Un maletín de tamaño mediano. 7 x 11",
-    "price": 3500.00,
+    "price": 24000.00,
     "stock": 15
   },
   {
     "id": 12,
-    "name": "",
-    "description": "",
-    "price": 5000.00,
+    "name": "Maletín grande",
+    "description": "Un maletín de tamaño grande. 8 × 12",
+    "price": 40000.00,
     "stock": 7
   },
   {
     "id": 13,
-    "name": "",
-    "description": "",
-    "price": 8000.00,
+    "name": "Maletín extragrande",
+    "description": "El maletín más grande disponible. 8 × 15",
+    "price": 73000.00,
     "stock": 4
   },
   {
     "id": 14,
-    "name": "Maletín",
-    "description": "",
-    "price": 20000.00,
+    "name": "Chaleco táctico",
+    "description": "Siéntete más seguro con este chaleco blindado. Reduce el daño recibido un 30 %",
+    "price": 60000.00,
     "stock": 0
   },
   {
     "id": 15,
-    "name": "",
-    "description": "",
-    "price": 9500.00,
+    "name": "Aerosol de primeros auxilios",
+    "description": "Restaura toda tu salud con un solo uso",
+    "price": 5000.00,
     "stock": 3
   }
 ]

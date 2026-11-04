@@ -1,0 +1,28 @@
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    background: #171a17;
+    color: #e8dfc9;
+    font-family: Georgia, serif;
+}
+
+header {
+    padding: 40px 20px;
+    text-align: center;
+    background: #252a22;
+    border-bottom: 2px solid #8c7746;
+}
+
+header h1 {
+    font-size: 3rem;
+    color: #c8b17a;
+}
+
+button {
+    cursor: pointer;
+    padding: 10px 16px;
+}
