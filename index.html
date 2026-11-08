@@ -1,39 +1,71 @@
 
 <!DOCTYPE html>
 <html lang="es">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>El Buhonero | Resident Evil 4</title>
+    <title>El Buhonero - Resident Evil 4</title>
     <link rel="stylesheet" href="style.css">
-    <script src="script.js" defer></script>
 </head>
+
 <body>
+
     <header>
-        <p>RESIDENT EVIL 4 · MERCHANT'S TRADING POST</p>
-        <h1>El Buhonero</h1>
-        <p>¿Qué estás comprando, forastero?</p>
-        <button id="cart-button" type="button">
-            Ver cesta (<span id="cart-count">0</span>)
-        </button>
+        <h1>EL BUHONERO</h1>
+        <p>¡Bienvenido, forastero!</p>
+        <button id="btn-carrito">Ver Cesta (0)</button>
     </header>
 
     <main>
-        <section id="catalog">
-            <h2>Mercancía disponible</h2>
 
-            <nav id="category-filters" aria-label="Filtrar por categoría">
-                <!-- JavaScript generará los filtros aquí -->
-            </nav>
+        <section id="filtros">
 
-            <div id="product-list">
-                <!-- JavaScript generará las tarjetas aquí -->
-            </div>
+            <input type="text" id="buscador" placeholder="Buscar productos...">
+
+            <button class="filtro" data-categoria="todo">Todo</button>
+            <button class="filtro" data-categoria="armas">Armas</button>
+            <button class="filtro" data-categoria="accesorios">Accesorios</button>
+            <button class="filtro" data-categoria="equipamiento">Equipamiento</button>
+
+            <select id="ordenar">
+                <option value="original">Orden original</option>
+                <option value="precio-asc">Precio: menor a mayor</option>
+                <option value="precio-desc">Precio: mayor a menor</option>
+                <option value="nombre">Nombre: A-Z</option>
+            </select>
+
         </section>
+
+        <section id="catalogo">
+        </section>
+
     </main>
 
-    <footer>
-        <p>El Buhonero · Tu tienda de supervivencia</p>
-    </footer>
+    <!-- Ventana emergente de la cesta -->
+    <div id="modal-carrito" class="modal">
+
+        <div class="contenido-modal">
+
+            <span id="cerrar-modal" class="cerrar">&times;</span>
+
+            <h2>EL BUHONERO - TU CESTA</h2>
+
+            <p id="datos-usuario"></p>
+
+            <div id="lista-carrito">
+                <!-- Aquí aparecerán los productos añadidos -->
+            </div>
+
+            <h3 id="total-carrito">Total: 0 ptas.</h3>
+
+            <button id="finalizar-compra">Finalizar Compra</button>
+
+        </div>
+
+    </div>
+
+    <script src="script.js"></script>
+
 </body>
 </html>

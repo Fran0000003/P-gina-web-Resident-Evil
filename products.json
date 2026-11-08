@@ -2,107 +2,137 @@
 [
   {
     "id": 1,
+    "category": "armas",
     "name": "Red9",
     "description": "Pistola de 9mm de gran potencia. Al acoplarle una culata, la precisión mejora notablemente",
     "price": 14000.00,
-    "stock": 8
+    "stock": 8,
+    "image": "Fotos/red9.png"
   },
-   {
+  {
     "id": 2,
+    "category": "armas",
     "name": "TMP",
     "description": "Subfusil automático de gran cadencia de disparo. Ligero y con cargador de gran capacidad",
     "price": 10000.00,
-    "stock": 6
+    "stock": 6,
+    "image": "Fotos/tmp.png"
   },
   {
     "id": 3,
+    "category": "armas",
     "name": "Matilda",
     "description": "Pistola de 9mm con ráfagas de 3 disparos. Gran capacidad de munición pero alto consumo",
     "price": 43000.00,
-    "stock": 4
+    "stock": 4,
+    "image": "Fotos/matilda.png"
   },
-{
+  {
     "id": 4,
+    "category": "armas",
     "name": "Lanzacohetes",
     "description": "Arma pesada de un solo uso. Dispara un proyectil explosivo de poder destructivo total",
     "price": 30000.00,
-    "stock": 1
+    "stock": 1,
+    "image": "Fotos/rocket-launcher.png"
   },
   {
     "id": 5,
+    "category": "armas",
     "name": "Rifle semiautomático",
     "description": "Fusil de precisión moderno. Permite realizar disparos consecutivos sin perder el objetivo",
     "price": 35000.00,
-    "stock": 2
+    "stock": 2,
+    "image": "Fotos/rifle-semi-auto.png"
   },
   {
     "id": 6,
+    "category": "accesorios",
     "name": "Culata Red9",
     "description": "Accesorio acoplable. Reduce drásticamente el retroceso del arma al apuntar",
     "price": 4000.00,
-    "stock": 6
+    "stock": 6,
+    "image": "Fotos/stock-red9.png"
   },
   {
     "id": 7,
+    "category": "accesorios",
     "name": "Culata TMP",
     "description": "Accesorio acoplable. Reduce drásticamente el retroceso del arma al apuntar",
     "price": 4000.00,
-    "stock": 1
+    "stock": 1,
+    "image": "Fotos/stock-tmp.png"
   },
   {
     "id": 8,
+    "category": "accesorios",
     "name": "Mira (Rifle semiautomático)",
     "description": "Mira telescópica de gran zoom. Facilita los disparos a objetivos muy lejanos",
     "price": 10000.00,
-    "stock": 20
+    "stock": 20,
+    "image": "Fotos/scope-semi-auto-rifle.png"
   },
   {
     "id": 9,
+    "category": "accesorios",
     "name": "Mira infrarroja",
     "description": "Mira térmica especial. Revela el calor corporal y los parásitos ocultos de los enemigos",
     "price": 10000.00,
-    "stock": 12
+    "stock": 12,
+    "image": "Fotos/infrared-scope.png"
   },
   {
     "id": 10,
+    "category": "accesorios",
     "name": "Culata Matilda",
     "description": "Accesorio acoplable. Reduce drásticamente el retroceso del arma al apuntar",
     "price": 3200.00,
-    "stock": 10
+    "stock": 10,
+    "image": "Fotos/matilda.png"
   },
   {
     "id": 11,
+    "category": "equipamiento",
     "name": "Maletín mediano",
     "description": "Un maletín de tamaño mediano. 7 x 11",
     "price": 24000.00,
-    "stock": 15
+    "stock": 15,
+    "image": "Fotos/attache-case-m.png"
   },
   {
     "id": 12,
+    "category": "equipamiento",
     "name": "Maletín grande",
     "description": "Un maletín de tamaño grande. 8 × 12",
     "price": 40000.00,
-    "stock": 7
+    "stock": 7,
+    "image": "Fotos/attache-case-l.png"
   },
   {
     "id": 13,
+    "category": "equipamiento",
     "name": "Maletín extragrande",
     "description": "El maletín más grande disponible. 8 × 15",
     "price": 73000.00,
-    "stock": 4
+    "stock": 4,
+    "image": "Fotos/attache-case-xl.png"
   },
   {
     "id": 14,
+    "category": "equipamiento",
     "name": "Chaleco táctico",
     "description": "Siéntete más seguro con este chaleco blindado. Reduce el daño recibido un 30 %",
     "price": 60000.00,
-    "stock": 0
+    "stock": 0,
+    "image": "Fotos/tactical-vest.png"
   },
   {
     "id": 15,
+    "category": "equipamiento",
     "name": "Aerosol de primeros auxilios",
     "description": "Restaura toda tu salud con un solo uso",
     "price": 5000.00,
-    "stock": 3
+    "stock": 3,
+    "image": "Fotos/first-aid-spray.png"
   }
 ]
